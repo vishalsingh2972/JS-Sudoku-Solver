@@ -64,15 +64,15 @@ const solve = () => {
       url: 'https://solve-sudoku.p.rapidapi.com/',
       headers: {
         'content-type': 'application/json',
-        'X-rapidapi-host': 'solve-sudoku.p.rapidapi.com',
-        'X-rapidapi-key': 'enter Rapid API key here'
+        'X-RapidAPI-Key': 'Enter RapidAPI Key here',
+        'X-RapidAPI-Host': 'solve-sudoku.p.rapidapi.com'
       },
       data: {
         puzzle: data
       }
-  }
+    };
 
-    axios.request(options).then(function (response){
+    axios.request(options).then((response) => {
       console.log(response.data);
       populateValues(response.data.solvable, response.data.solution);
     }).catch(function (error){

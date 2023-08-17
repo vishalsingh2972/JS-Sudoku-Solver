@@ -17,3 +17,14 @@
 .peelu{
   background-color: rgb(245, 255, 110);
 }
+
+#solve-button{
+  background-color: yellowgreen;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+
+}
