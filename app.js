@@ -20,7 +20,7 @@ for(let i = 0; i < squares; i++){
       inputElement.classList.add('neelu');
   } 
   else {
-     inputElement.classList.add('peelu');
+      inputElement.classList.add('peelu');
   } 
   
   puzzleBoard.appendChild(inputElement);
