@@ -1,0 +1,23 @@
+#puzzle{
+  width: 450px;
+  height: 450px;
+}
+
+#puzzle input{
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px grey solid;
+}
+
+.kesariya{
+  background-color: rgb(255, 192, 74);
+}
+
+.ashok-chakra{
+  background-color: rgb(167, 223, 255);
+}
+
+.harabhara{
+  background-color: rgb(141, 255, 141);
+}
